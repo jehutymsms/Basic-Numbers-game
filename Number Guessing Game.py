@@ -57,10 +57,6 @@ def game1():
     elif counter > 0:
         game2()   
 
-def number_pick():
-    res = input("Lets play a number guessing game! Would you like to guess \n[a] 1-10 \n[b] 1-100 \n[c] 1 - 1000 \n>" )
-    return res
-
 def game_rules():
     print("Hello my name is Ada")
 
